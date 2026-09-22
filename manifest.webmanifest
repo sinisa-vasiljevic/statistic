@@ -8,5 +8,11 @@
   "theme_color": "#204f7d",
   "lang": "de-DE",
   "orientation": "any",
-  "icons": [{"src":"icon-1024.png","sizes":"1024x1024","type":"image/png"}]
+  "icons": [
+    {
+      "src": "icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
 }
