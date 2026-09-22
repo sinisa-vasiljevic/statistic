@@ -1,3 +1,3 @@
-# U15 Statistik V7.3
+# U15 Statistik V7.4
 
-Alle Dateien ins GitHub-Repository laden. GitHub Pages: main / root.
+GitHub Pages: alle Dateien nach main/root hochladen.
