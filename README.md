@@ -1,3 +1,3 @@
-# U15 Statistik V7.2
+# U15 Statistik V7.3
 
-Dateien in das Hauptverzeichnis des GitHub-Repositories laden und GitHub Pages fuer `main` sowie `/(root)` aktivieren.
+Alle Dateien ins GitHub-Repository laden. GitHub Pages: main / root.
