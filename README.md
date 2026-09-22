@@ -1,3 +1,3 @@
-# U15 Statistik V7.6
+# U15 Statistik V8.0
 
 Korrigierte Spielerlisten, Auswahlfelder und Entwurfsspeicherung.
