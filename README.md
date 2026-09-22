@@ -1,3 +1,3 @@
-# U15 Statistik V7.4
+# U15 Statistik V7.5
 
-GitHub Pages: alle Dateien nach main/root hochladen.
+Enthaelt automatische Entwurfsspeicherung und korrigierte Live-Spielerlisten. Alle Dateien nach GitHub main/root hochladen.
