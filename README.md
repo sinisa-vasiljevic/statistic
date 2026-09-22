@@ -1,3 +1,3 @@
-# U15 Statistik V7.5
+# U15 Statistik V7.6
 
-Enthaelt automatische Entwurfsspeicherung und korrigierte Live-Spielerlisten. Alle Dateien nach GitHub main/root hochladen.
+Korrigierte Spielerlisten, Auswahlfelder und Entwurfsspeicherung.
