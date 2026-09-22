@@ -1,0 +1,12 @@
+{
+  "name": "VfR Heilbronn U15 Statistik",
+  "short_name": "U15 Statistik",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f6fa",
+  "theme_color": "#204f7d",
+  "lang": "de-DE",
+  "orientation": "any",
+  "icons": [{"src":"icon-1024.png","sizes":"1024x1024","type":"image/png"}]
+}
