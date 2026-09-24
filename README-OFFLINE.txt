@@ -1,12 +1,10 @@
-VfR Heilbronn U15 Statistik V8.13 - UI-Überarbeitung Verlauf
-
+VfR Heilbronn U15 Statistik V8.14 - Premium-ST-Icon
 Neu:
-- Verlauf mit einheitlichem Zwei-Spalten-Raster.
-- Spiel Ende links an der bisherigen Position von Rot Gegner.
-- Eigentor VfR rechts und Rot Gegner direkt darunter.
-- Halbzeit beendet als letzter Button über die volle Breite.
-- Eigentor VfR: Spieler wird durch Antippen ausgewählt, keine Zahleneingabe mehr.
-- Neues Fußball-Icon bleibt erhalten.
-
+- Neues blaues Premium-ST-Icon mit Statistikdiagramm und Fußball.
+- Optimierte Icon-Dateien für iPhone, Android und GitHub-PWA.
+- Apple-Touch-Icon in 180 x 180 Pixel ergänzt.
+- PWA-Icons in 192 x 192 und 512 x 512 Pixel ersetzt.
+- Zusätzliches 1024-x-1024-Master-Icon enthalten.
+- Manifest, Browser-Favicon und Offline-Cache auf V8.14 aktualisiert.
 Installation:
-Alle Dateien gemeinsam bei GitHub ersetzen. Vorher JSON-Sicherung erstellen. Danach App online öffnen, auf V8.13 prüfen, schließen und neu starten.
+Alle Dateien gemeinsam bei GitHub ersetzen. Danach die App einmal online öffnen, schließen und neu starten. Falls auf dem iPhone noch das alte Symbol erscheint, die App vom Home-Bildschirm entfernen und erneut über „Zum Home-Bildschirm“ hinzufügen.
