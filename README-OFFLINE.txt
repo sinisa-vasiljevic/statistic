@@ -1,26 +1,31 @@
-VfR Heilbronn U15 Statistik V8.11 - Offline-PWA
+VfR Heilbronn U15 Statistik V8.12 - vollständige Offline-PWA
 
-GitHub Pages:
-1. Alle Dateien aus diesem Paket gemeinsam in das Repository kopieren.
-2. index.html, sw.js, manifest.webmanifest und beide Icons müssen im selben Ordner liegen.
-3. GitHub Pages öffnen und die App einmal mit Internetverbindung laden.
-4. Auf dem Handy zum Home-Bildschirm hinzufügen.
-5. Danach ist ein Start ohne Internet möglich.
+INHALT
+- index.html
+- sw.js
+- manifest.webmanifest
+- icon-192.png
+- icon-512.png
 
-Offline-Test:
-- App einmal online öffnen und vollständig laden.
-- App zum Home-Bildschirm hinzufügen.
-- Flugmodus aktivieren.
-- App vollständig schließen und über das Homescreen-Symbol neu starten.
+GITHUB-PAGES-UPDATE
+1. In der aktuellen App zuerst unter „Sicherung“ einen JSON-Export erstellen.
+2. Alle fünf Dateien dieses Pakets gemeinsam in denselben GitHub-Ordner hochladen.
+3. Vorhandene Dateien mit gleichen Namen ersetzen.
+4. GitHub Pages mit Internetverbindung öffnen und prüfen, ob „Version 8.12“ angezeigt wird.
+5. Seite aktualisieren, App vollständig schließen und erneut öffnen.
+6. Falls noch V8.11 erscheint, die Homescreen-App entfernen, Safari-Websitedaten der GitHub-Pages-Adresse löschen und V8.12 neu installieren. Vorher zwingend JSON sichern.
 
-Wichtig: Die Spiel- und Statistikdaten bleiben wie bisher lokal im Browser/auf dem Gerät gespeichert. Regelmäßig unter Sicherung exportieren.
+OFFLINE-INSTALLATION
+1. Die App mindestens einmal vollständig online öffnen.
+2. Über „Teilen“ -> „Zum Home-Bildschirm“ installieren.
+3. Danach Flugmodus einschalten.
+4. App vollständig schließen und über das Homescreen-Symbol erneut starten.
+5. Oben rechts muss „Offline – lokal gespeichert“ erscheinen.
 
-Wichtige Grenze beim allerersten Start:
-- Ohne vorherigen Online-Aufruf kann eine GitHub-Pages-PWA nicht starten. Der Browser muss index.html und den Service Worker mindestens einmal über HTTPS herunterladen und installieren.
-- Nach dieser einmaligen Online-Installation startet die App aus dem Cache ohne Internet.
-- Für einen wirklich netzlosen Erststart wäre eine native/sideloaded App oder ein bereits vorab installiertes Paket nötig.
+DATENSICHERUNG
+- „Exportieren“ erstellt eine vollständige JSON-Sicherung.
+- „Offline-Datenexport JSON“ funktioniert auch ohne Internet.
+- Regelmäßig sichern, besonders vor dem Löschen von Browser- oder Website-Daten.
 
-Offline-Datenexport:
-- Im Reiter Sicherung steht „Offline-Datenexport JSON“ zur Verfügung.
-- Der Export benötigt kein Internet.
-- Auf unterstützten Handys öffnet sich das Teilen-Menü; andernfalls wird die JSON-Datei lokal heruntergeladen.
+ICON
+Dieses Paket verwendet das gewünschte neue Fußball-Icon in 192 x 192 und 512 x 512 Pixel.
