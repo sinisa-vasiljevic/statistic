@@ -1,7 +1,7 @@
 {
   "name": "VfR Heilbronn U15 Statistik",
   "short_name": "U15 Statistik",
-  "description": "Offline-Statistiktool für die VfR Heilbronn U15",
+  "description": "Robustes Offline-Statistiktool für die VfR Heilbronn U15",
   "lang": "de",
   "start_url": "./index.html",
   "scope": "./",

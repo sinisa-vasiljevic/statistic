@@ -1,10 +1,17 @@
-VfR Heilbronn U15 Statistik V8.14 - Premium-ST-Icon
-Neu:
-- Neues blaues Premium-ST-Icon mit Statistikdiagramm und Fußball.
-- Optimierte Icon-Dateien für iPhone, Android und GitHub-PWA.
-- Apple-Touch-Icon in 180 x 180 Pixel ergänzt.
-- PWA-Icons in 192 x 192 und 512 x 512 Pixel ersetzt.
-- Zusätzliches 1024-x-1024-Master-Icon enthalten.
-- Manifest, Browser-Favicon und Offline-Cache auf V8.14 aktualisiert.
+VfR Heilbronn U15 Statistik V8.15 - Robustheitsupdate
+
+Verbesserungen:
+- Vollständiges manifest.webmanifest wieder enthalten.
+- Beschädigte lokale Daten verhindern nicht mehr den App-Start.
+- Datenstruktur wird beim Start und Import automatisch normalisiert.
+- Speicherfehler werden sichtbar gemeldet.
+- JSON-Import wird vor Übernahme geprüft.
+- Vor jedem Import wird automatisch eine Sicherung des aktuellen Datenstands erstellt.
+- Laufende Spieluhr wird nach einem App-Neustart erkannt. Der Benutzer entscheidet, ob die Unterbrechungszeit weitergezählt oder die Uhr am letzten Stand angehalten wird.
+- Zusätzliche Notfallspeicherung bei Wechsel in den Hintergrund, pagehide und beforeunload.
+- Rückgängig-Historie wird im Datenbestand gespeichert.
+- Premium-ST-Icon und sämtliche bisherigen Funktionen bleiben erhalten.
+- Offline-Cache und sichtbare Version auf V8.15 aktualisiert.
+
 Installation:
-Alle Dateien gemeinsam bei GitHub ersetzen. Danach die App einmal online öffnen, schließen und neu starten. Falls auf dem iPhone noch das alte Symbol erscheint, die App vom Home-Bildschirm entfernen und erneut über „Zum Home-Bildschirm“ hinzufügen.
+Alle Dateien gemeinsam bei GitHub ersetzen. Vorher zur Sicherheit einen JSON-Export der bisherigen App erstellen. Anschließend die App einmal online öffnen, neu laden, schließen und erneut starten.
