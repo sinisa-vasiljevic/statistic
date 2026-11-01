@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_NAME='u15-statistik-v8.23-offline';
+const CACHE_NAME='u15-statistik-v8.24-offline';
 const CACHE_PREFIX='u15-statistik-';
 const APP_SHELL=['./index.html','./manifest.webmanifest','./apple-touch-icon.png','./icon-192.png','./icon-512.png','./icon-1024.png'];
 

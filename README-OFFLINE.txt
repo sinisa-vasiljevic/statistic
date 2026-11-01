@@ -1,21 +1,16 @@
-VfR Heilbronn U15 Statistik V8.23
+VfR Heilbronn U15 Statistik V8.24
 
-ÄNDERUNGEN IN V8.23
-- Im Reiter Einwechslungen werden Spieler auf dem Feld und auf der Bank einheitlich sortiert.
-- Torhüter stehen in beiden Bereichen immer zuerst und werden untereinander nach Rückennummer sortiert.
-- Danach folgen alle übrigen Spieler aufsteigend nach Rückennummer.
-- Mehrere Spieler können gleichzeitig für RAUS und REIN markiert werden.
-- Eine feste Paarung zwischen ausgewechselten und eingewechselten Spielern ist nicht erforderlich.
-- Ein Wechsel wird freigegeben, sobald gleich viele Spieler für RAUS und REIN ausgewählt sind.
-- Alle Spieler eines Mehrfachwechsels erhalten denselben Zeitpunkt der Spieluhr.
-- Die Torwartprüfung erfolgt für die vollständige Feldaufstellung nach dem Wechsel.
-- Für Gelbe und Rote Karten muss weiterhin genau ein Feldspieler ausgewählt sein.
-- Alle übrigen Funktionen aus V8.22 bleiben erhalten.
-- App-Version, Datenbankschema und Offline-Cache wurden auf V8.23 angehoben.
+ÄNDERUNGEN IN V8.24
+- Einwechslungen: Torhüter stehen bei Feld und Bank immer zuerst, jeweils nach Rückennummer sortiert. Danach folgen die übrigen Spieler nach Rückennummer.
+- Einwechslungen: Mehrere Spieler können gleichzeitig für RAUS und REIN markiert und mit demselben Zeitpunkt gewechselt werden. Eine feste Paarung ist nicht erforderlich.
+- Einwechslungen: Der feste Bedienblock ist kompakter. Gelb, Rot und Zurück stehen in einer Reihe. Spieler nachmelden und Wechsel stehen nebeneinander. Der Block sitzt näher am unteren Bildschirmrand.
+- Verlauf: In der bisherigen freien Lücke befindet sich jetzt ebenfalls der Button Zurück mit derselben Rückgängig-Funktion.
+- Verlauf: SPIEL ENDE ist schwarz mit weißer Schrift und deutlich von Rot Gegner unterscheidbar.
+- App-Version, Datenbankschema und Offline-Cache wurden auf V8.24 angehoben.
 
 INSTALLATION
 1. Vor dem Update unter Sicherung einen JSON-Export erstellen.
 2. Alle Dateien aus dem ZIP gemeinsam in den GitHub-Pages-Ordner hochladen und vorhandene Dateien ersetzen.
-3. Warten, bis in der App Version 8.23 angezeigt wird.
-4. Die Seite einmal online öffnen und anschließend vollständig neu laden.
-5. Falls weiterhin Version 8.22 erscheint, die bisherige Homescreen-App löschen und die Seite erneut zum Home-Bildschirm hinzufügen.
+3. Warten, bis in der App Version 8.24 angezeigt wird.
+4. Die Seite einmal online öffnen und vollständig neu laden.
+5. Wird weiterhin eine ältere Version angezeigt, die Homescreen-App entfernen und anschließend neu hinzufügen.
