@@ -1,18 +1,17 @@
-VfR Heilbronn U15 Statistik V8.21
+VfR Heilbronn U15 Statistik V8.22
 
-ÄNDERUNG IN V8.21
-- Die Bemerkungsfelder unter den Spielern wurden vollständig aus der Spielerfassung entfernt.
-- Pro Spieler werden in der Spielerfassung nur noch Name beziehungsweise Rückennummer sowie START und BANK angezeigt.
-- Die Spielerfassung ist dadurch kompakter und auf dem Smartphone schneller bedienbar.
-- Bereits vorhandene historische Bemerkungen werden beim erneuten Speichern nicht sichtbar angezeigt, aber intern nicht unnötig gelöscht.
-- Alle Funktionen aus V8.20 bleiben erhalten.
-- App-Version, Datenbankschema und Offline-Cache wurden auf V8.21 angehoben.
+FEHLERBEHEBUNG IN V8.22
+- Die Spielerfassung speichert START- und BANK-Spieler jetzt aus einem festen Auswahl-Snapshot.
+- Nach dem Speichern wird die gespeicherte Aufstellung unmittelbar kontrolliert.
+- Bei einem Speicherfehler wird der vorherige Stand wiederhergestellt und eine klare Fehlermeldung angezeigt.
+- Die Spielerfassung wird nach erfolgreichem Speichern neu aus den gespeicherten Datensätzen aufgebaut.
+- Eine noch nicht gestartete Live-Aufstellung wird nach einer Änderung sicher neu erzeugt.
+- Alle übrigen Funktionen aus V8.21 bleiben unverändert.
+- App-Version, Datenbankschema und Offline-Cache wurden auf V8.22 angehoben.
 
 INSTALLATION
 1. Vor dem Update unter Sicherung einen JSON-Export erstellen.
-2. Alle Dateien aus dieser ZIP gemeinsam in den GitHub-Pages-Ordner hochladen und vorhandene Dateien ersetzen.
-3. Warten, bis in der App Version 8.21 angezeigt wird.
-4. Wegen des geänderten Offline-Caches die bisherige Homescreen-App löschen.
-5. Die Seite in Safari online öffnen und etwa 10 Sekunden geöffnet lassen.
-6. Über Teilen > Zum Home-Bildschirm erneut installieren.
-7. Die neue App einmal online öffnen, vollständig schließen und danach offline testen.
+2. index.html, sw.js und README-OFFLINE.txt gemeinsam in den GitHub-Pages-Ordner hochladen und vorhandene Dateien ersetzen.
+3. Warten, bis in der App Version 8.22 angezeigt wird.
+4. Die Seite einmal online öffnen und anschließend vollständig neu laden.
+5. Falls weiterhin Version 8.21 erscheint, die bisherige Homescreen-App löschen und die Seite erneut zum Home-Bildschirm hinzufügen.
