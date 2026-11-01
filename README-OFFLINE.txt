@@ -5,7 +5,7 @@ VfR Heilbronn U15 Statistik V8.24
 - Einwechslungen: Mehrere Spieler können gleichzeitig für RAUS und REIN markiert und mit demselben Zeitpunkt gewechselt werden. Eine feste Paarung ist nicht erforderlich.
 - Einwechslungen: Der feste Bedienblock ist kompakter. Gelb, Rot und Zurück stehen in einer Reihe. Spieler nachmelden und Wechsel stehen nebeneinander. Der Block sitzt näher am unteren Bildschirmrand.
 - Verlauf: In der bisherigen freien Lücke befindet sich jetzt ebenfalls der Button Zurück mit derselben Rückgängig-Funktion.
-- Verlauf: SPIEL ENDE ist schwarz mit weißer Schrift und deutlich von Rot Gegner unterscheidbar.
+- Einwechslungen und Verlauf: SPIEL ENDE ist einheitlich schwarz mit weißer Schrift und deutlich von roten Karten unterscheidbar.
 - App-Version, Datenbankschema und Offline-Cache wurden auf V8.24 angehoben.
 
 INSTALLATION
